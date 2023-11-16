@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "generate": "turbo run generate",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "^14.0.1",
+    "eslint-config-prettier": "^9.0.0",
+    "postcss": "^8",
+    "prettier": "^3.0.3",
+    "turbo": "latest"
+  },
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "libs/*"
+  ]
+}

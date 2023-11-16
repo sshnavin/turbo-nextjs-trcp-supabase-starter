@@ -1,0 +1,35 @@
+{
+  "name": "@starter/backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "generate": "drizzle-kit generate:pg",
+    "migrate": "node -r esbuild-register ./drizzle/migrate.ts"
+  },
+  "dependencies": {
+    "@supabase/ssr": "latest",
+    "@supabase/supabase-js": "latest",
+    "@tanstack/react-query": "^4.32.6",
+    "@trpc/client": "^10.37.1",
+    "@trpc/next": "^10.37.1",
+    "@trpc/react-query": "^10.37.1",
+    "@trpc/server": "^10.37.1",
+    "drizzle-orm": "^0.28.6",
+    "postgres": "^3.4.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "superjson": "^2.2.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "drizzle-kit": "^0.19.13",
+    "pg": "^8.11.3",
+    "@types/pg": "^8.10.9",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "typescript": "^5"
+  }
+}
