@@ -1,5 +1,5 @@
 import { ChevronRight, HomeIcon } from 'lucide-react';
-import PageHeader from '@startahead/components/page/page.header';
+import PageHeader from '@/components/page/page.header';
 import { api } from '@starter/backend/trpc/server';
 
 export default async function Index() {

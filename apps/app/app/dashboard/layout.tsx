@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import React from 'react';
 import { cn } from '@starter/ui/shared/cn';
 import { LayoutPanelLeft } from 'lucide-react';
-import UserNav from '@startahead/components/user-nav';
+import UserNav from '@/components/user-nav';
 
 export const metadata: Metadata = {
     title: 'Dashboard',
